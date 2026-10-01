@@ -52,12 +52,12 @@ I work mostly in **Python and Node.js**, backend-first, and I try to finish proj
 - Submissions rejected outside a 20 m classroom radius
 - Attendance logs and audit records exported to Excel
 
-### 🧪 Quiz Wizard 2 — desktop app with a test suite
-`Python` `CustomTkinter` `Pytest` `PyInstaller` `Inno Setup`
+### 🤖 RAG-based AI Assistant
+`Python` `LLM` `Vector Store` `Embeddings` · [source](https://github.com/swarithreddy/All_Projects/tree/main/01-Portfolio/RAG-based-ai)
 
-- Layered design separating UI, business logic and JSON-based storage
-- Core quiz logic covered by **Pytest, independent of the UI**
-- Adaptive difficulty, persistent preferences, packaged as a Windows installer
+- Retrieval-augmented generation pipeline that answers questions from your own documents instead of relying on the model's memory alone
+- Documents are chunked, embedded and indexed so the most relevant context is retrieved for each query
+- Retrieved context is passed to the LLM to produce grounded answers, which cuts down hallucination
 
 **Also built:** IoT energy monitoring & automatic billing (Arduino, Embedded C — 🥇 hackathon, 2024) · House Price Predictor (Scikit-learn, Pandas) · Student Task Manager (Flask, SQLite) · IEEE VJIT chapter website (HTML, CSS, JS) · [Online resume](https://github.com/swarithreddy/online-resume) (vanilla HTML/CSS/JS, no framework) · Task Tactics (linked lists in C)
 
